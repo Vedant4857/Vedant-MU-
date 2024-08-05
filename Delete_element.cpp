@@ -10,7 +10,6 @@ int main(){
     for(i=0;i<n;i++){
         cin>>arr[i];
     }
-
     cout<<"Enter the element for deletion:";
     cin>>y;
 
@@ -20,8 +19,6 @@ int main(){
             break;
         }
     }
-
-
     for(i=x;i<n;i++){
         arr[i] = arr[i+1];
     }
@@ -29,6 +26,5 @@ int main(){
      for(i=0;i<n-1;i++){
         cout<<arr[i]<<"\t";
     }
-
      return 0;
 }
