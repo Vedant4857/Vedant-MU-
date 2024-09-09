@@ -32,7 +32,7 @@ int main(){
     }
 
     int end = n-1,beg =0;
-    cout<<"Enter the elements to be found:";  
+    cout<<endl<<"Enter the elements to be found:";  
     cin>>x;
 
     for(i=0;i<n;i++){
